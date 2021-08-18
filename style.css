@@ -1,0 +1,66 @@
+body {
+    background-color: #06D6A0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buy{
+    padding: 1em;
+    margin: 1em;
+}
+
+.Check{
+    padding: 1em;
+    margin: 1em;
+}
+
+.warning{
+    background-color : orange;
+}
+
+.pizza {
+    /*box-model */
+    border: 1px ;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+    
+}
+
+.Shopping{
+    background-color: #FFD166;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    margin-bottom: -0.05em;
+}
+
+.large_pizza {
+    background-color: #073B4C;
+    flex: 1;
+}
+
+.medium_pizza {
+    background-color: #EF476F;
+    flex: 1;
+}
+
+.small_pizza {
+    background-color: #118AB2;
+    flex: 1;
+}
+
+
+.contact_us {
+    background-color: #FFD166;
+    
+}   
+
+@media (min-width: 960px) {
+    .pizzas {
+        display: flex;
+}
+
+.header {
+    font-size: xx-large;
+}
